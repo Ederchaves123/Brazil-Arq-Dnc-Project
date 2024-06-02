@@ -1,0 +1,100 @@
+*
+   {font-family: "inter";
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;}
+
+ #menu-superior 
+   {color: aliceblue;
+    background-color: #303030;
+    padding-top: 200px;
+    padding-bottom: 125px;}
+
+  #titulo-superior 
+   {font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -2,5%;
+    margin: 30px 0px 0px 50px;}
+
+  #texto-superior 
+   {font-size: 21px;
+    margin: 0px 0px 0px 50px;
+    padding-top: 25px;}
+
+    #menu-informacional
+    {background-color: #F9F9F9;
+      color: #000000;
+      display: grid;
+      grid-auto-flow: column;
+      columns: auto;
+      padding-top: 130px;
+      padding-bottom: 100px;}
+  
+  .negrito
+     {font-weight: bolder;
+      font-size: 40px;
+      margin-left: 125px;}
+  
+  .texto-sem-negrito
+     {margin-left: 125px;
+      font-size: 20px;}
+   
+   #secao-imagem
+     {margin-top: 100px;
+      margin-bottom: 100px;
+      display: grid;
+     grid-auto-flow:  column;
+     columns: auto;}
+
+   .texto-imagem
+     {margin-left: 80px;}
+
+   #titulo-imagem
+     {font-weight: bold;
+      padding-top: 30px;
+      padding-left: 0px;
+      margin-top: 150px;
+      font-size: 40px;}
+   
+   #frase-imagem
+     {font-size: 24px;}
+
+   #formulario
+     {padding-top: 100px;
+      padding-bottom: 100px;
+      background-color: #303030;
+      color: #FFFFFF;
+      font-size: 19px;
+       text-align: center;}
+   
+   input
+     {width: 508px;
+      height: 72px;
+      background-color: #FFFFFF;
+      margin: 25px;
+      border: 0px;
+      border-radius: 10px;
+      padding-left: 25px;
+      color:#0000004D;
+      font-size: 24px;}
+   
+   input:hover
+     {color: #000000;}
+
+   button
+     {background-color: #C07212;
+      color: #FFFFFF;
+      font-size: 30px;
+      font-family: "raleway";
+      font-weight: bolder;
+      width: 286px; 
+      height: 74px;
+      border: 0px;
+      border-radius: 10px;
+   cursor: pointer;}
+
+    button:hover
+     {background-color: #eb9832;
+      transform: translateY(-7px);
+      transition-duration: 0,5s;
+      box-shadow: 0px 2px 5px #ffffff;}
